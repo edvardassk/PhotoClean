@@ -18,15 +18,25 @@ Mobile phone photo galery cleaning from unneded photos is:
 
 If not cleaned it
 *makes difficult to find actual, needed photos
-*consumes phones memory resources intensivelly
+*consumes phones memory intensivelly and I am asked from time to time clean photos
 
+Up to now no of mobile preinstalled software offered me solution for this manual job. In Google Play also nothing interesting. 
 
+Quite common to see people saying that they have to clean photos as mphones memory runs out
 
 
 ## How is it used?
 
-Regularly (a. g. monthly, weeekly, other metric, according to user wishes) mobile produces list of photos, which are prosod to be deleted. User can approve, remove from delete list or add addtional ones. Changes are very much welcomme, as they allow to train solution. 
+*Regularly (a. g. monthly, weeekly, other metric, according to user wishes) PhotoClean runs through photo galery and labels photos: "delete" and "not delete"
+*list is showed to the mobile phone user as proposal for deletion of not needed photos
+*User can change the list either unmarking photos which are lableles "delete" or adding others into deletion list
+*User sends final deletion list to recycle bid
+*PhotoClean analyses deletion preferences to improve for the next time
+
+
 Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+
+Here are pictures of photos I would like to delete:
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
@@ -55,7 +65,13 @@ main()
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
+
+Data naturally, is laready in mobile phone galery. 
+ML is neede to analyse photos, which client prefers to delete. First analysis could be done ater notification to client to mark certain numbers of photos clients would like to delete. 
+PhotoClean could be pretrained even before upload to recognize common patterns of photos to be labeled as deleted, but initial accuracy wiould be very low, as photo use is very 
+subjective and could be many clients segments with differnet photo taking and photos use styles. However ML should be able to adapt to individual client preferences with a time. 
+
+by someone else?
 If you need to use links, here's an example:
 [Twitter API](https://developer.twitter.com/en/docs)
 
