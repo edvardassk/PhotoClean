@@ -45,31 +45,17 @@ No code, as still in begginer level of courses
 
 Data naturally, is already in mobile phone photo gallery. 
 ML is neede to analyse photos, which client prefers to delete. First analysis could be done ater notification to client to mark certain numbers of photos clients would like to delete. 
-PhotoClean could be pretrained even before upload to recognize common patterns of photos to be labeled as deleted, but initial accuracy wiould be very low, as photo use is very 
-subjective and could be many clients segments with differnet photo taking and photos use styles. However ML should be able to adapt to individual client preferences with a time. 
+PhotoClean could be pretrained even before upload to recognize common patterns of photos to be labeled as deleted, but initial accuracy wiould be very low: and photo taking and use are very subjective and could be many clients segments. However ML should be able to adapt to individual client preferences with a time. 
 
-by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+At this stage PhotoClean does not add other labels to pfotos (e. g. like already availalble solutions which can recognize faces and label names). 
+PhotoClean should follow Gallery ethical standarts set by producer (e. g. do not interrupt with abuse photos filterring used by Apple)
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
-
-## Acknowledgments
-
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+To check, whether rally this kind solution is not available yet. Maybe my search was simply not hard enough.
+Find others interesnted in idea
+Make feasibility study or dicussion
+Proceed further depending on findings
