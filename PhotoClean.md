@@ -30,7 +30,7 @@ Quite common to see people saying that they have to clean photos as mphones memo
 PhotoClean runs on mobile phone.
 * regularly (a. g. monthly, weeekly, other metric, according to user set ups) PhotoClean runs through photo galery and labels photos: "delete" and "not delete"
 * list is showed to the mobile phone user as proposal for deletion of photos. Coul be like this
-   ![Photos for deletion](/)
+ ![Photos for deletion](/Screenshot_20220310-112031_Gallery.jpg)
 * user can change the list either unmarking photos which are lableled "delete" by PhotoClean or adding others into deletion list
 * user sends final deletion list to recycle bid
 * PhotoClean analyses deletion preferences to improve for the next time
