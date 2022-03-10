@@ -28,12 +28,13 @@ Quite common to see people saying that they have to clean photos as mphones memo
 ## How is it used?
 
 PhotoClean runs on mobile phone.
-*Regularly (a. g. monthly, weeekly, other metric, according to user set ups) PhotoClean runs through photo galery and labels photos: "delete" and "not delete"
-*list is showed to the mobile phone user as proposal for deletion of photos
-*User can change the list either unmarking photos which are lableled "delete" by PhotoClean or adding others into deletion list
-*User sends final deletion list to recycle bid
-*PhotoClean analyses deletion preferences to improve for the next time
-*After period set by user, process runs again
+* regularly (a. g. monthly, weeekly, other metric, according to user set ups) PhotoClean runs through photo galery and labels photos: "delete" and "not delete"
+* list is showed to the mobile phone user as proposal for deletion of photos. Coul be like this
+   ![Photos for deletion](/)
+* user can change the list either unmarking photos which are lableled "delete" by PhotoClean or adding others into deletion list
+* user sends final deletion list to recycle bid
+* PhotoClean analyses deletion preferences to improve for the next time
+* after period set by user, process runs again
 
 No code, as still in begginer level of courses
 
