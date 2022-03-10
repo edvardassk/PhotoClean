@@ -27,46 +27,22 @@ Quite common to see people saying that they have to clean photos as mphones memo
 
 ## How is it used?
 
-*Regularly (a. g. monthly, weeekly, other metric, according to user wishes) PhotoClean runs through photo galery and labels photos: "delete" and "not delete"
-*list is showed to the mobile phone user as proposal for deletion of not needed photos
-*User can change the list either unmarking photos which are lableles "delete" or adding others into deletion list
+PhotoClean runs on mobile phone.
+*Regularly (a. g. monthly, weeekly, other metric, according to user set ups) PhotoClean runs through photo galery and labels photos: "delete" and "not delete"
+*list is showed to the mobile phone user as proposal for deletion of photos
+*User can change the list either unmarking photos which are lableled "delete" by PhotoClean or adding others into deletion list
 *User sends final deletion list to recycle bid
 *PhotoClean analyses deletion preferences to improve for the next time
+*After period set by user, process runs again
+
+No code, as still in begginer level of courses
 
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Here are pictures of photos I would like to delete:
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
 
 
 ## Data sources and AI methods
 
-Data naturally, is laready in mobile phone galery. 
+Data naturally, is already in mobile phone photo gallery. 
 ML is neede to analyse photos, which client prefers to delete. First analysis could be done ater notification to client to mark certain numbers of photos clients would like to delete. 
 PhotoClean could be pretrained even before upload to recognize common patterns of photos to be labeled as deleted, but initial accuracy wiould be very low, as photo use is very 
 subjective and could be many clients segments with differnet photo taking and photos use styles. However ML should be able to adapt to individual client preferences with a time. 
